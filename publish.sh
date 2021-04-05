@@ -1,4 +1,6 @@
 
+git pull
+
 rm -rf build
 
 yarn build
