@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { List, Layout  } from 'antd';
+import { Button, List, Layout  } from 'antd';
 const { Content } = Layout;
 
 class App extends React.Component {
@@ -28,8 +28,8 @@ class App extends React.Component {
         <Layout>
           <Content>
             <List
-              header={<div>print("iOS有人要")</div>}
-              footer={<div>git commit -m "feature: init"</div>}
+              header={<div>$ print("iOS有人要")</div>}
+              footer={<div>$ <a href="https://github.com/yourenyao/yourenyao-website" target="__blank">提交职位</a> </div>}
               bordered
               dataSource={this.state.items}
               renderItem={item => (
