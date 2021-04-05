@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Card, Layout } from 'antd';
-const { Header, Footer, Content } = Layout;
+import { List, Layout  } from 'antd';
+const { Content } = Layout;
 
 
-class ItemList extends React.Component {
+
+class App extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       items: []
     }
@@ -26,36 +26,24 @@ class ItemList extends React.Component {
 
   render() {
     return (
-      <>
-        {this.state.items.map((item) => {
-          return (
-            <div key={item.title}>
-              <p>{"👋"} {item.title} | {item.city.join(",")} </p>
-              <p> - 职位描述: {item.requirement}</p>
-              <p> - 联系微信: {item.wechat}</p>
-            </div>
-          );
-        })}
-      </>
-    )
-  }
-}
-
-
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
       <div className="App">
         <Layout>
-          <Header>print("YouRenYao")</Header>
           <Content>
-            <ItemList />
+            <List
+              header={<div>print("YouRenYao")</div>}
+              footer={<div>git commit -m "feature: init"</div>}
+              bordered
+              dataSource={this.state.items}
+              renderItem={item => (
+                <List.Item>
+                  👋 {item.title} <br/>
+                  工作地点：{item.city.join(",")} <br/>
+                  职位要求：{item.requirement} <br/>
+                  微信联系：{item.wechat}
+                </List.Item>
+              )}
+            />
           </Content>
-          <Footer>git commit -m "feature: init"</Footer>
         </Layout>
       </div>
     )

@@ -6,8 +6,19 @@
       "title": "抖音iOS基础技术 - 稳定性方向",
       "requirement": "工作经验2年以上，对APM方向有浓厚兴趣，做过的事情讲明白即可。",
       "city": ["北京"],
-      "wechat": "everettjf",
-      "category": "iOS"
+      "wechat": "everettjf"
+    },
+    {
+      "title": "抖音iOS基础技术 - 动态化方向",
+      "requirement": "工作经验2年以上，对Swift动态化方向有浓厚兴趣，做过的事情讲明白即可。",
+      "city": ["北京","深圳"],
+      "wechat": "everettjf"
+    },
+    {
+      "title": "抖音iOS基础技术 - 性能优化方向",
+      "requirement": "工作经验2年以上，对APM方向有浓厚兴趣，做过的事情讲明白即可。",
+      "city": ["北京","上海"],
+      "wechat": "everettjf"
     }
   ]
 }
