@@ -3,8 +3,6 @@ import './App.css';
 import { List, Layout  } from 'antd';
 const { Content } = Layout;
 
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +28,7 @@ class App extends React.Component {
         <Layout>
           <Content>
             <List
-              header={<div>print("YouRenYao")</div>}
+              header={<div>print("iOS有人要")</div>}
               footer={<div>git commit -m "feature: init"</div>}
               bordered
               dataSource={this.state.items}

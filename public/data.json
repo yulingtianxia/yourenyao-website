@@ -3,22 +3,16 @@
   "version": 1,
   "items": [
     {
-      "title": "抖音iOS基础技术 - 稳定性方向",
-      "requirement": "工作经验2年以上，对APM方向有浓厚兴趣，做过的事情讲明白即可。",
+      "title": "抖音iOS基础技术 - 性能稳定性方向",
+      "requirement": "对性能稳定性方向有浓厚兴趣的朋友欢迎私聊",
       "city": ["北京"],
       "wechat": "everettjf"
     },
     {
-      "title": "抖音iOS基础技术 - 动态化方向",
-      "requirement": "工作经验2年以上，对Swift动态化方向有浓厚兴趣，做过的事情讲明白即可。",
-      "city": ["北京","深圳"],
-      "wechat": "everettjf"
-    },
-    {
-      "title": "抖音iOS基础技术 - 性能优化方向",
-      "requirement": "工作经验2年以上，对APM方向有浓厚兴趣，做过的事情讲明白即可。",
-      "city": ["北京","上海"],
-      "wechat": "everettjf"
+      "title": "阿里巴巴淘系端智能团队",
+      "requirement": "阿里巴巴淘系端智能团队招人 - 实习、校招、社招。如果是对搜索推荐系统工程、高性能计算、深度学习模型推理、模型量化压缩、图形渲染、客户端 iOS / Android 、服务端开发感兴趣的朋友，欢迎微信私聊",
+      "city": ["杭州","北京","深圳"],
+      "wechat": "satanwoo"
     }
   ]
 }
